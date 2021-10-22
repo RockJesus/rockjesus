@@ -1,0 +1,150 @@
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>
+#page,.layout_post>
+#post,.read-mode .layout_post>
+#post {
+  background: rgba(125,48,211,.10);
+  color: #000000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#aside-content .card-widget {
+  background: rgba(193,30,163,.10);
+  color: #000000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#post {
+  background: rgba(125,48,211,.10);
+  color: #000000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#web_bg {
+    background: /img/oc.png
+
+}
+
+#aside-content.aside-content > .sticky_layout > .card-widget.card-clock > .card-glass > .card-background {
+    background-color: unset ;
+    box-shadow: unset ;
+}
+
+#footer {
+  background: rgba(5,5,5,.05);
+  color: #000000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(5,5,5,.05)
+    color: #000000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color)
+}
+
+body {
+    cursor: url(/img/cur.png), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block
+}
+
+a,
+button,
+img {
+    cursor: url(/img/cur.png), auto
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 2875562 */
+  src: url('iconfont.woff2?t=1634632932522') format('woff2'),
+       url('iconfont.woff?t=1634632932522') format('woff'),
+       url('iconfont.ttf?t=1634632932522') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-QQ:before {
+  content: "\e73e";
+}
+
+.icon-dianying:before {
+  content: "\e60a";
+}
+
+.icon-gangtiexia:before {
+  content: "\e619";
+}
+
+.icon-CombinedShapex:before {
+  content: "\e602";
+}
+
+.icon-aixin:before {
+  content: "\e612";
+}
+
+.icon-weixin:before {
+  content: "\e607";
+}
+
+.icon-external_tiktok:before {
+  content: "\e608";
+}
+
+.icon-github:before {
+  content: "\e722";
+}
+
+.icon-gitee2:before {
+  content: "\e677";
+}
+
+.icon-ufo:before {
+  content: "\e652";
+}
+
+.icon-aliens-fill:before {
+  content: "\ec93";
+}
+
+.icon-aliens-fill1:before {
+  content: "\e874";
+}
+
+.icon-aliens-fill2:before {
+  content: "\e664";
+}
+
+.icon-aliens-fill3:before {
+  content: "\e826";
+}
+
+.icon-aliens-line:before {
+  content: "\e756";
+}

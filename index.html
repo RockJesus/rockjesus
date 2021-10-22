@@ -1,0 +1,560 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Alienware Hackintosh - RockJesus</title><meta name="keywords" content="Alienware Hackintosh by RockJesus 外星人黑苹果"><meta name="author" content="RockJesus"><meta name="copyright" content="RockJesus"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="外星人黑苹果">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alienware Hackintosh">
+<meta property="og:url" content="https://rockjesus.cn/index.html">
+<meta property="og:site_name" content="Alienware Hackintosh">
+<meta property="og:description" content="外星人黑苹果">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://rockjesus.cn/img/black.png">
+<meta property="article:author" content="RockJesus">
+<meta property="article:tag" content="Alienware Hackintosh by RockJesus 外星人黑苹果">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://rockjesus.cn/img/black.png"><link rel="shortcut icon" href="/img/apple.png"><link rel="canonical" href="https://rockjesus.cn/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="a9e08ec56eb07a3e283226ce7db68098"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a9e08ec56eb07a3e283226ce7db68098";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Alienware Hackintosh',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-10-20 09:08:43'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_2875562_kkb6ns0eiij.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-clock/lib/clock.min.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/black.png" onerror="onerror=null;src='/img/4040.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">11</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-aliens-fill"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/img/qq.png"><i class="fa-fw iconfont icon-QQ"></i><span> QQ群</span></a></div><div class="menus_item"><a class="site-page" href="/img/gzh.jpg"><i class="fa-fw iconfont icon-weixin"></i><span> 公众号</span></a></div><div class="menus_item"><a class="site-page" href="/img/dou.png"><i class="fa-fw iconfont icon-external_tiktok"></i><span> 抖音</span></a></div><div class="menus_item"><a class="site-page" href="/img/dy.jpg"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></div><div class="menus_item"><a class="site-page" href="/img/az.jpg"><i class="fa-fw fab fa-apple"></i><span> 安装</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blog.daliansky.net/"><i class="fa-fw fas fa-heart"></i><span> 黑果小兵</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/bg.gif')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Alienware Hackintosh</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-aliens-fill"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/img/qq.png"><i class="fa-fw iconfont icon-QQ"></i><span> QQ群</span></a></div><div class="menus_item"><a class="site-page" href="/img/gzh.jpg"><i class="fa-fw iconfont icon-weixin"></i><span> 公众号</span></a></div><div class="menus_item"><a class="site-page" href="/img/dou.png"><i class="fa-fw iconfont icon-external_tiktok"></i><span> 抖音</span></a></div><div class="menus_item"><a class="site-page" href="/img/dy.jpg"><i class="fa-fw fas fa-film"></i><span> 电影</span></a></div><div class="menus_item"><a class="site-page" href="/img/az.jpg"><i class="fa-fw fab fa-apple"></i><span> 安装</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blog.daliansky.net/"><i class="fa-fw fas fa-heart"></i><span> 黑果小兵</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Alienware Hackintosh</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/rockjesus" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/rockjesus" target="_blank" title="gitee"><i class="fab fa-git"></i></a><a class="social-icon" href="/img/qq.png" target="_blank" title="外星人黑苹果QQ群"><i class="fab fa-qq"></i></a><a class="social-icon" href="/img/gzh.jpg" target="_blank" title="外星人黑苹果公众号"><i class="fab fa-weixin"></i></a><a class="social-icon" href="/img/dou.png" target="_blank" title="抖音"><i class="fab fa-tiktok"></i></a><a class="social-icon" href="/img/dy.jpg" target="_blank" title="电影公众号"><i class="fas fa-film"></i></a><a class="social-icon" href="/img/az.jpg" target="_blank" title="黑苹果远程安装"><i class="fab fa-apple"></i></a><a class="social-icon" href="https://blog.daliansky.net/" target="_blank" title="黑果小兵"><i class="fas fa-heartbeat"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2021/10/07/ah/" title="外星人黑苹果clover/opencore收集 alienware hackintosh clover/opencore collection"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/alienwareb.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="外星人黑苹果clover/opencore收集 alienware hackintosh clover/opencore collection"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/07/ah/" title="外星人黑苹果clover/opencore收集 alienware hackintosh clover/opencore collection">外星人黑苹果clover/opencore收集 alienware hackintosh clover/opencore collection</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">Sticky</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-10-07T05:48:25.000Z" title="Created 2021-10-07 13:48:25">2021-10-07</time></span></div><div class="content">alienware hackintosh clover/opencore collection外星人黑苹果clover/opencore收集 
+下载地址：https://github.com/RockJesus/Alienware-Hackintosh收集网友分享的外星人各机型黑苹果efi，欢迎push你的配置！Collect alienware hackintosh clover/opencore shared by netizens. Welcome to push your own configuration here!Alienware 17 R4 长期维护 Long-term maintenance：https://github.com/RockJesus/Alienware-17-R4-Dual-GPU-MacOS-Mojave-10.14-Hackintosh更多台式机型 More desktop models: https://github.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOSGuides 中文版|||Englis ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/10/06/cn/" title="AW 17 R4 笔记本双显卡 MacOS"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/bg23.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="AW 17 R4 笔记本双显卡 MacOS"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/06/cn/" title="AW 17 R4 笔记本双显卡 MacOS">AW 17 R4 笔记本双显卡 MacOS</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">Sticky</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-10-06T05:48:25.000Z" title="Created 2021-10-06 13:48:25">2021-10-06</time></span></div><div class="content">
+http://bbs.pcbeta.com/viewthread-1761528-1-1.html
+
+
+http://bbs.pcbeta.com/viewthread-1797200-1-1.html
+
+
+
+配置Alienware 17 R4bios版本1.2.4CPU:Intel i7-7700hq显卡:Intel HD630 / Nvidia GeForce GT 1060内存:16g硬盘:Sandisk m.2 256G /希捷 1T （添加nvme sm961 256g）声卡：alc298网卡：killer e2500 (wifi 更换为dw1560-bcm94352z )
+
+
+成功驱动「HD630+nvidia 1060双显卡」声卡网卡，满足日常使用（双显卡模式请看第二部分）
+
+
+第一部分（核显模式）
+
+只能在win10下fn+f7以核显模式启动 ，独显模式启动会黑屏 使用情况
+
+hotpatch屏蔽NVIDIA 1060 （优点节能省电低温）
+
+原生驱动I7-7700HQ 核显 HD630 （外接hdmi显示器无信号，内屏连接hd630输出正常，thunderbolt/ ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/10/06/en/" title="AW 17 R4 DUAL-GPU MacOS"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/bg1.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="AW 17 R4 DUAL-GPU MacOS"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/06/en/" title="AW 17 R4 DUAL-GPU MacOS">AW 17 R4 DUAL-GPU MacOS</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">Sticky</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-10-06T05:48:25.000Z" title="Created 2021-10-06 13:48:25">2021-10-06</time></span></div><div class="content">
+http://bbs.pcbeta.com/viewthread-1797200-1-1.html
+
+
+https://www.tonymacx86.com/threads/guide-alienware-17-r4-dual-gpu-macos-mojave.263577/
+
+
+
+My hardwareAlienware 17 R41080pi7-7700HQIntel HD 630 &amp; Nvidia GeForce GT 106016G RAMSM961 Samsung NVME 256REALTEK ALC298KILLER E2500Dell DW1560 (Broadcom BCM94352Z)BIOS version 1.5.0
+
+
+BIOS ConfigurationSATA MODE AHCISECURE BOOT NOBOOT UEFI
+
+
+OverviewI’ve got dual-gpu working good on 10.13.6,Now just waiting for the webdriver for 10.14.*In windows OS  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/09/11/oc/" title="外星人黑苹果opencore主题 Alienware-Opencore-Theme"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/bg2.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="外星人黑苹果opencore主题 Alienware-Opencore-Theme"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/09/11/oc/" title="外星人黑苹果opencore主题 Alienware-Opencore-Theme">外星人黑苹果opencore主题 Alienware-Opencore-Theme</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-09-11T05:48:25.000Z" title="Created 2021-09-11 13:48:25">2021-09-11</time></span></div><div class="content">Alienware-Opencore-ThemeAlienware Opencore Theme v3 👽操作指南： 仅适用于OC0.6.5 正式版及以上版本
+下载v3附件中Resources文件夹替换EFI/OC/同名文件夹；下载地址：https://github.com/RockJesus/Alienware-Opencore-ThemeEFI/OC/Drivers/中必须存在CrScreenshotDxe.efi（F10截图快捷键驱动） 并在config.plist加载该驱动；
+替换oc文件夹下的resource文件夹，config-misc-boot-pickervariant-RockJesus.cn\Alienware
+Setup：Replace EFI &gt; OC &gt; ResourcesMisc &gt; Boot &gt; PickerVariant: RockJesus.cn\AlienwareMisc &gt; Boot &gt; PickerAttribute: 17
+PS：已上传 opencore configuratort theme downlo ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2019/01/11/alc/" title="终于驱动了笔记本ALC269VC的低音炮"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/alienwarewb.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="终于驱动了笔记本ALC269VC的低音炮"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/alc/" title="终于驱动了笔记本ALC269VC的低音炮">终于驱动了笔记本ALC269VC的低音炮</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+本子型号 三星NT550P7C-S65 声卡 ALC269VC 2.1声道，一个前面板左右声道扬声器，后面板一个低音炮
+
+
+之前一直在使用voodoohda，虽然可以驱动扬声器和低音炮但是耳机死活驱动不了，所以改用applealc，经过多次尝试终于成功，耳机，扬声器，低音炮，两个mic全部正常工作，但是不算完美。。
+
+
+待解决：a.开机和睡醒时有爆音b.耳机插拔时不能自动切换，需要手动切换c.扬声器和低音炮音量不能总体控制，需要单独调节（附件里包含音量软件方便调节）用到的软件和alc文件打包 
+
+
+
+12.30更新 准完美版解决自动切换和音量总体调节
+
+
+说下我的步骤：1.layout修改intspeaker下添加一项 dspfunction 如图2.platform文件由idsdt获得，把低音炮和扬声器放在一组（注意子母项位置），修改低音炮channel格式如图3.使用PinConfigurator获得pinconfigdata把codec里有用节点都add进去，点applefix，再手动修改低音炮倒数第二个数与扬声器相同（这里为4），最后一个数改为1，点get configdat ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2019/01/11/hdmi/" title="一行patch驱动NVIDIA HDMI声音"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/bg23.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="一行patch驱动NVIDIA HDMI声音"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/hdmi/" title="一行patch驱动NVIDIA HDMI声音">一行patch驱动NVIDIA HDMI声音</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">成功测试硬件
+Alienware 17 R4alc298 英特尔HD 630和Nvidia GeForce GT 1060
+
+
+测试环境10.13.6 ，9系10系n卡可做参考，当webdriver更新10.14后应该同理
+
+
+
+
+原帖地址：WhateverGreen/FAQ.GeForce.en.md at master · acidanthera/WhateverGreen · GitHub按照这里的操作确实可行，但是只讲到修改dsdt来显示被隐藏的hdmi声音HDAU设备，下面讲到如何通过hotpatch显示设备和驱动设备
+
+#hotpatch驱动方法：
+
+
+win下到设备管理器-声音-nvidia hdmi-记录硬件id和bios硬件位置例如我的硬件id为：厂商id=0x10de  设备id=0x10f1 （这里注意是硬件id不要记录成codecid）bios硬件位置为：_SB/PCI0/PEG0/PEGP
+
+
+
+
+
+mac下需要安装对应版本webdriver来驱动独显，外接显示器视频正常输出，但系统检测不到hdmi声音hdau硬件设备
+
+
+
+
+hotpatch 模版 这里等同 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2019/01/11/light/" title="Mac下修改键盘背景灯的通用方法"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/alienwareb2.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="Mac下修改键盘背景灯的通用方法"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/light/" title="Mac下修改键盘背景灯的通用方法">Mac下修改键盘背景灯的通用方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+之前键盘灯只能进win才能修改，因为在mac下没有对应的软件可以做到，很是麻烦！在mac下偶然发现了这个方法，虽然有点小麻烦但总之可以改了，又减少一个进win的理由！！！
+
+
+1.下载parallels desktop 13 for mac安装，支持bootcamp，无需再安装win，直接开启硬盘上的win虚拟机
+
+
+2.进入win虚拟机后，点右上角usb，挂载aw1517设备到虚拟机里这里查找你的键盘led灯设备，我的是aw1517
+
+
+3.开启你的修改软件就可以开始修改背景灯啦
+
+
+其他设备比如外接键盘鼠标什么的应该同理，自行尝试吧
+
+
+
+
+外星人黑苹果QQ群：308469644
+外星人黑苹果微信公众号
+外星人黑苹果微信小程序
+
+
+
+
+
+
+
+
+如果文章对你有帮助，欢迎打赏作者. If u like, Buy me a coffee  :)
+
+
+支付宝打赏
+微信打赏
+微信赞赏
+
+
+
+
+
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2019/01/11/mouse/" title="【Alienware】MAC动 态 鼠 标 主 题"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/mac.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="【Alienware】MAC动 态 鼠 标 主 题"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/mouse/" title="【Alienware】MAC动 态 鼠 标 主 题">【Alienware】MAC动 态 鼠 标 主 题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+
+
+
+移植自windows，安装方法在附件里第一次用ps，感谢群里朋友的指点
+
+
+软件来自https://github.com/alexzielenski/Mousecape
+
+
+mac版和win版打包下载https://pan.baidu.com/s/1pN8iGCJg3cgICsGZBkxJ9g
+
+
+
+
+外星人黑苹果QQ群：308469644
+外星人黑苹果微信公众号
+外星人黑苹果微信小程序
+
+
+
+
+
+
+
+
+如果文章对你有帮助，欢迎打赏作者. If u like, Buy me a coffee  :)
+
+
+支付宝打赏
+微信打赏
+微信赞赏
+
+
+
+
+
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2019/01/11/qa/" title="五国/日常问题集合Q&amp;A"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/color.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="五国/日常问题集合Q&amp;A"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/qa/" title="五国/日常问题集合Q&amp;A">五国/日常问题集合Q&amp;A</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+1 Busy Timeout[0], kextd wait(0):’AppleACPICPU’这个错误找了很多帖子，最后将Clover 更新到最新版本，并将Clover下的kexts/other目录下的kext全部复制到kexts/10.13下解决。换fakesmc删除4个温度kext开机clover-option-Bin下选项打勾尝试
+
+
+2 hd4400-4600花屏 8苹果一。添加AzulPatcher4600.kextig-platform-id 0x04128086fake-id-intelgfx 0x0a260006二、在clover中注入一个修改过的EDID00FFFFFFFFFFFF000DAE351700000000321601049526157802D495A355509D270F505400000001010101010101010101010101010101B43B804A71383440302035007ED710000018000000FE004E3137334847452D4531310A20000000FE00434D4E0A202020202020 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2019/01/11/tb/" title="Mac雷电3 type-c 热拔插支持"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/awhd.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="Mac雷电3 type-c 热拔插支持"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/tb/" title="Mac雷电3 type-c 热拔插支持">Mac雷电3 type-c 热拔插支持</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+配置Alienware 17 r4雷电3:8086, 15DA,Intel JHL6340 Thunderbolt 3 Bridge (C step) [Alpine Ridge 2C 2016]
+
+
+原先没有任何修改时，开机前插着雷电启动，可以使用雷电设备，但是不能热拔插，睡醒回来也会挂。。。后来发现@the-darkvoid写了macOS-IOElectrify这个KEXT，拿来试试终于可以热拔插了，感谢作者！！！
+
+
+
+貌似把雷电仿冒成了express card所以thunderbolt下无显示。。同机型可直接使用前往https://github.com/RockJesus/macOS-IOElectrify
+
+
+待解决问题：开机必须插着雷电启动才能使用，睡醒后雷电口依旧会挂，重新拔插也不行[backcolor=rgba(27, 31, 35, 0.05)]UB31@00200000: AppleUSBXHCIPort::powerOn: deadline passed (PORTSC 0x00000000) UB21@00100000: AppleUSBXHCIPort::p ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2019/01/11/theme/" title="CLOVER高清开机动画主题"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/alienwarebr.gif" onerror="this.onerror=null;this.src='/img/404.gif'" alt="CLOVER高清开机动画主题"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/01/11/theme/" title="CLOVER高清开机动画主题">CLOVER高清开机动画主题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-01-11T05:48:25.000Z" title="Created 2019-01-11 13:48:25">2019-01-11</time></span></div><div class="content">
+awmanhd （1920x1080）
+
+
+awhd （1920x1080）
+
+
+做个网红主题 yoona （1920x1080）
+
+
+alienwarewb
+
+
+alienwareb
+
+
+alienwareb2
+
+
+alienwarebr
+
+
+mac
+
+
+alienwarebb
+
+
+aurora
+
+
+lake
+
+
+rock
+
+
+sea
+
+
+star
+
+
+starhd
+
+
+color
+
+
+colorv2 (with icon)
+
+
+suicide
+
+
+第一款主题awhd上架cloverthememanager
+
+
+alienwarewhite
+
+
+alienwareblue
+
+
+alienwarevertical
+
+
+主题下载地址https://pan.baidu.com/s/1eS7joVg 密码: jith说明：nohd=1600x900 hd=1920x1080
+
+
+使用方法：1.解压文件夹到efi/clover/themes2.修改efi/clover/config.plist&lt;key&gt;Theme&lt;/key&gt; &lt;string&gt;xxx&lt; ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">Life is all about the journey ∞#24</div></div><div class="sticky_layout"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/black.png" onerror="this.onerror=null;this.src='/img/4040.gif'" alt="avatar"/></div><div class="author-info__name">RockJesus</div><div class="author-info__description">Technical  Artist  of  Alienware  &  MacOS 外星人黑苹果</div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/rockjesus"><i class="iconfont icon-aliens-fill"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/rockjesus" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/rockjesus" target="_blank" title="gitee"><i class="fab fa-git"></i></a><a class="social-icon" href="/img/qq.png" target="_blank" title="外星人黑苹果QQ群"><i class="fab fa-qq"></i></a><a class="social-icon" href="/img/gzh.jpg" target="_blank" title="外星人黑苹果公众号"><i class="fab fa-weixin"></i></a><a class="social-icon" href="/img/dou.png" target="_blank" title="抖音"><i class="fab fa-tiktok"></i></a><a class="social-icon" href="/img/dy.jpg" target="_blank" title="电影公众号"><i class="fas fa-film"></i></a><a class="social-icon" href="/img/az.jpg" target="_blank" title="黑苹果远程安装"><i class="fab fa-apple"></i></a><a class="social-icon" href="https://blog.daliansky.net/" target="_blank" title="黑果小兵"><i class="fas fa-heartbeat"></i></a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-10-20T01:08:43.124Z"></div></div><script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=04a1ptxjy5e&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script></div></div></div></div></main><footer id="footer" style="background-image: url('/img/lo.png')"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By RockJesus</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><span class="footer-separator">|</span><span>Redesigned by </span><a target="_blank" rel="noopener" href="https://github.com/rockjesus">RockJesus</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="Increase font size"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="Decrease font size"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    window.typed = new Typed("#subtitle", {
+      strings: ["Alienware MacOS by RockJesus"],
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = 'Alienware MacOS by RockJesus'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script></div><div class="aplayer no-destroy" data-id="7009544328" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-lrctype="0" data-theme="#303030" data-mutex="true" data-order="random" data-preload="none" data-autoplay="true" muted></div><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js" data-mobile="false" data-text="R,O,C,K,J,E,S,U,S" data-fontsize="15px" data-random="false" async="async"></script><script>(function(d, w, c) {
+    w.ChatraID = 'BKcbhw8RGmmh3ejFH';
+    var s = d.createElement('script');
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+    };
+    s.async = true;
+    s.src = 'https://call.chatra.io/chatra.js';
+    if (d.head) d.head.appendChild(s);
+})(document, window, 'Chatra');
+
+if (true) {
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      Chatra('openChat')
+    });
+  }
+  chatBtnFn()
+} else {
+  if (false) {
+    function chatBtnHide () {
+      Chatra('hide')
+    }
+    function chatBtnShow () {
+      Chatra('show')
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_injector_config();
+  }
+  </script><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script data-pjax src="https://cdn.jsdelivr.net/npm/hexo-butterfly-clock/lib/clock.min.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":200,"height":400,"hOffset":150,"vOffset":-68},"mobile":{"show":false,"scale":0.5},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>

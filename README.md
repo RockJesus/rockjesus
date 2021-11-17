@@ -2,6 +2,7 @@
 ### Hi there 👋  Welcome 🛸  to Alienware 👽  Hackintosh 🍎  by 💻   [RockJesus.cn](https://rockjesus.cn) [![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)  🖥  
 [![qq](http://r1o2otara.hd-bkt.clouddn.com/17r4.gif)](https://rockjesus.cn)
  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)
+ 
 [![Hardware](https://img.shields.io/badge/Hardware-alienware-silver.svg?style=for-the-badge&logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-macOS-red.svg?style=for-the-badge&logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-windows-blue.svg?style=for-the-badge&logo=windows)](https://www.microsoft.com/en-us/windows/) 
 [![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?style=for-the-badge&logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
 [![b](https://img.shields.io/badge/Bootloader-Clover-green.svg?style=for-the-badge&logo=Leaflet)](https://github.com/CloverHackyColor/CloverBootloader)

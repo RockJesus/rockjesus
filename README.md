@@ -23,5 +23,4 @@
  [![Gitter](https://img.shields.io/badge/Chatroom-Gitter-9cf.svg?logo=gitter)](https://gitter.im/Alienware-hackintosh/community)
 [![stars](https://img.shields.io/github/stars/rockjesus.svg?logo=ApacheSpark)](https://github.com/RockJesus)
 [![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
-[![forks](https://img.shields.io/github/forks/RockJesus/alienware-hackintosh.svg?logo=Analogue&color=orange)](https://github.com/RockJesus)
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")

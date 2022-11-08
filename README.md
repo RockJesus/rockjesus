@@ -1,8 +1,8 @@
-[![qq](https://cdn.jsdelivr.net/gh/rockjesus/img/img/foot.gif)](https://rockjesus.cn)
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)
 ### Welcome 🛸  to Alienware 👽  Hackintosh 🍎  外星人 💻  黑苹果  🖥  by [RockJesus.cn](https://rockjesus.cn) [![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)
-[![qq](https://cdn.jsdelivr.net/gh/rockjesus/img/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)
 
-[![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/) 
+[![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
 [![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
 [![b](https://img.shields.io/badge/Bootloader-Clover-green.svg?logo=4chan)](https://github.com/CloverHackyColor/CloverBootloader)
 [![b](https://img.shields.io/badge/Credits-Acidanthera-purple.svg?logo=Academia)](https://github.com/acidanthera)

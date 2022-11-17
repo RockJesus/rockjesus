@@ -23,3 +23,8 @@
 [![stars](https://img.shields.io/github/stars/rockjesus.svg?logo=ApacheSpark)](https://github.com/RockJesus)
 [![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
+
+<div class="aplayer no-destroy" data-id="3787157504" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-lrctype="0" data-theme="#303030" data-mutex="true" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+
+<a href="https://rockjesus.cn/"><img src="https://s01.flagcounter.com/map/bwQz/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+<a href="https://rockjesus.cn/"><img src="https://s11.flagcounter.com/countxl/bwQz/bg_000000/txt_FFFFFF/border_000000/columns_8/maxflags_24/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>

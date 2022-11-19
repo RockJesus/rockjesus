@@ -5,8 +5,6 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
 
 [![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
 
-
-
 [![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
 [![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
 [![b](https://img.shields.io/badge/Bootloader-Clover-green.svg?logo=4chan)](https://github.com/CloverHackyColor/CloverBootloader)
@@ -29,5 +27,5 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
 [![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
 
-<a href="https://rockjesus.cn/"><img src="https://s01.flagcounter.com/map/bwQz/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+[![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
 <a href="https://rockjesus.cn/"><img src="https://s11.flagcounter.com/countxl/bwQz/bg_000000/txt_FFFFFF/border_000000/columns_8/maxflags_24/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>

@@ -28,4 +28,3 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
 
 [![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
-<a href="https://rockjesus.cn/"><img src="https://s11.flagcounter.com/countxl/bwQz/bg_000000/txt_FFFFFF/border_000000/columns_8/maxflags_24/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>

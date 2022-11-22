@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?duration=10000&color=F7F7F7&width=250&lines=Alienware+Hackintosh" />
+</p>
+
 https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
 
 ### Welcome 🛸  to Alienware 👽  Hackintosh 🍎  外星人 💻  黑苹果  🖥  by [RockJesus.cn](https://rockjesus.cn) [![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)

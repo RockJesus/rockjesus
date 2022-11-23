@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=900&height=70&lines=Welcome+%F0%9F%9B%B8+to+Alienware+%F0%9F%91%BD+Hackintosh+%F0%9F%8D%8E+%E5%A4%96%E6%98%9F%E4%BA%BA+%F0%9F%92%BB+%E9%BB%91%E8%8B%B9%E6%9E%9C+%F0%9F%96%A5+by+RockJesus.cn)](https://rockjesus.cn)[![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)
+<center>[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=900&height=70&lines=Welcome+%F0%9F%9B%B8+to+Alienware+%F0%9F%91%BD+Hackintosh+%F0%9F%8D%8E+%E5%A4%96%E6%98%9F%E4%BA%BA+%F0%9F%92%BB+%E9%BB%91%E8%8B%B9%E6%9E%9C+%F0%9F%96%A5+by+RockJesus.cn)](https://rockjesus.cn)[![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)
 
 https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
 
@@ -30,3 +30,4 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
  ![visitors](https://visitor-badge.glitch.me/badge?page_id=rockjesus.visitor-badge&left_color=green&right_color=red)
 
 [![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
+</center>

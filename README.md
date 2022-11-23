@@ -1,14 +1,12 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=900&height=70&lines=Welcome+%F0%9F%9B%B8+to+Alienware+%F0%9F%91%BD+Hackintosh+%F0%9F%8D%8E+%E5%A4%96%E6%98%9F%E4%BA%BA+%F0%9F%92%BB+%E9%BB%91%E8%8B%B9%E6%9E%9C+%F0%9F%96%A5+by+RockJesus.cn)](https://rockjesus.cn)
 
-<div align=center>
-<img src=[![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)>
-</div>
+[![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)
 
 https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
+[![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
 
 [![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
 [![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
@@ -32,6 +30,3 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
 [![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
  ![visitors](https://visitor-badge.glitch.me/badge?page_id=rockjesus.visitor-badge&left_color=green&right_color=red)
-
-[![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
-

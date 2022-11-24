@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
 
 [![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
 
-[![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS10/12-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
+[![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS13~10-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
 [![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
 [![b](https://img.shields.io/badge/Bootloader-Clover-green.svg?logo=4chan)](https://github.com/CloverHackyColor/CloverBootloader)
 [![b](https://img.shields.io/badge/Credits-Acidanthera-purple.svg?logo=Academia)](https://github.com/acidanthera)

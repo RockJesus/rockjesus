@@ -4,7 +4,7 @@
 
 https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RockJesus&count_private=true&include_all_commits=true&show_icons=true&theme=nightowl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rockjesus&theme=radical&show_icons=true&bg_color=end,000000,cccccc&hide_border)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
 
 [![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
 

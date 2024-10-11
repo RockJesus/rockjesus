@@ -4,7 +4,7 @@
 
 https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rockjesus&theme=radical&show_icons=true&bg_color=end,000000,cccccc&hide_border)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=rockjesus&theme=radical&show_icons=true&bg_color=end,000000,cccccc&hide_border)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
 
 [![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
 
@@ -30,3 +30,6 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
 [![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
  [![visitors](https://visitor-badge.glitch.me/badge?page_id=rockjesus.visitor-badge&left_color=green&right_color=red)](https://rockjesus.cn)
+
+You are No.<img src="https://profile-counter.glitch.me/rockjesus/count.svg" alt="visitor badge"/> visitor here !
+[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)

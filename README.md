@@ -31,5 +31,4 @@ https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-
  [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
  [![visitors](https://visitor-badge.glitch.me/badge?page_id=rockjesus.visitor-badge&left_color=green&right_color=red)](https://rockjesus.cn)
 
-You are No.<img src="https://profile-counter.glitch.me/rockjesus/count.svg" alt="visitor badge"/> visitor here !
 [![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)

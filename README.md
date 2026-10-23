@@ -13,6 +13,12 @@
 <video autoplay loop muted playsinline src="https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4" style="display:block;margin:16px auto;max-width:100%;border-radius:8px;"></video>
 
 <p align="center">
+  <a href="https://github.com/RockJesus"><img src="https://github.com/rockjesus.png?size=120" width="30" height="30" style="border-radius:50%;vertical-align:middle" alt="RockJesus"></a>
+  <strong><a href="https://github.com/RockJesus">RockJesus</a></strong> ·
+  <a href="https://rockjesus.cn">rockjesus.cn</a>
+</p>
+
+<p align="center">
   <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif" style="height:210px;width:auto" alt="17R4">
   <img src="https://stats.justsong.cn/api/github?name=rockjesus&theme=radical&show_icons=true" style="height:210px;width:auto" alt="GitHub stats">
 </p>

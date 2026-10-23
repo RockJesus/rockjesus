@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://rockjesus.cn"><img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/alienware-demo.webp" alt="Alienware.Hackintosh.by.RockJesus" style="width:100%;height:auto;display:block;border-radius:8px"></a>
+  <a href="https://rockjesus.cn"><img src="https://github.com/RockJesus/rockjesus/blob/main/img/bgz.gif" alt="Alienware.Hackintosh.by.RockJesus" style="width:100%;height:auto;display:block;border-radius:8px"></a>
 </p>
 
 <p align="center">

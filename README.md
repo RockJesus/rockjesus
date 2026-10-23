@@ -10,11 +10,11 @@
 <a href="https://github.com/acidanthera/OpenCorePkg"><img src="https://img.shields.io/badge/Bootloader-OpenCore-silver?logo=OpenCollective&logoColor=white" alt="OpenCore"></a> <a href="https://github.com/CloverHackyColor/CloverBootloader"><img src="https://img.shields.io/badge/Bootloader-Clover-green?logo=4chan&logoColor=white" alt="Clover"></a>
 </p>
 
-<video src="https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4" controls style="display:block;margin:16px auto;max-width:100%;border-radius:8px;"></video>
+<video autoplay loop muted playsinline src="https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4" style="display:block;margin:16px auto;max-width:100%;border-radius:8px;"></video>
 
 <p align="center">
-  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif" alt="17R4">
-  <img src="https://stats.justsong.cn/api/github?name=rockjesus&theme=radical&show_icons=true" alt="GitHub stats">
+  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif" style="height:210px;width:auto" alt="17R4">
+  <img src="https://stats.justsong.cn/api/github?name=rockjesus&theme=radical&show_icons=true" style="height:210px;width:auto" alt="GitHub stats">
 </p>
 
 <p align="center">
@@ -31,22 +31,16 @@
 <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dou.png"><img src="https://img.shields.io/badge/Social-TikTok-blue?logo=tiktok&logoColor=white" alt="TikTok"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/sph.jpg"><img src="https://img.shields.io/badge/Social-%E5%BE%AE%E4%BF%A1%E8%A7%86%E9%A2%91%E5%8F%B7-green?logo=AirPlayVideo&logoColor=white" alt="微信视频号"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dy.jpg"><img src="https://img.shields.io/badge/Social-%E7%94%B5%E5%BD%B1%E5%85%AC%E4%BC%97%E5%8F%B7-red?logo=Aparat&logoColor=white" alt="电影公众号"></a>
 </p>
 
+<p align="center">
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&color=F4C430" alt="stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&color=6e5494" alt="followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
+</p>
+
 ## ☕ 打赏支持
 
 <p align="center">
 <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zfb.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E6%94%AF%E4%BB%98%E5%AE%9D-blue?logo=alipay&logoColor=white" alt="支付宝"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/wx.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E5%BE%AE%E4%BF%A1-green?logo=wechat&logoColor=white" alt="微信"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zsm.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E8%B5%9E%E8%B5%8F%E7%A0%81-yellow?logo=wechat&logoColor=white" alt="赞赏码"></a>
 </p>
 
-## 🛠 其他
-
 <p align="center">
-<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=ApacheSpark&logoColor=white&color=yellow" alt="stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=SouthwestAirlines&logoColor=white&color=purple" alt="followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
-</p>
-
-<p align="center">
-  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif" alt="footer">
+  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif" style="width:100%;height:auto;display:block" alt="footer">
 </p>

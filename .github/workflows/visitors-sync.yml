@@ -1,0 +1,38 @@
+name: Sync Busuanzi Visitors
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch busuanzi stats
+        run: |
+          for i in 1 2 3; do
+            data=$(curl -s --max-time 20 -H "Referer: https://rockjesus.cn/" -H "User-Agent: Mozilla/5.0" "https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb") || true
+            if echo "$data" | grep -q '"site_pv"'; then break; fi
+            sleep 3
+          done
+          pv=$(echo "$data" | grep -oE '"site_pv":[0-9]+' | grep -oE '[0-9]+' | head -1)
+          uv=$(echo "$data" | grep -oE '"site_uv":[0-9]+' | grep -oE '[0-9]+' | head -1)
+          ts=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          echo "pv=$pv uv=$uv"
+          if [ -z "$pv" ]; then echo "FETCH_FAILED" && exit 1; fi
+          printf '{"site_pv":%s,"site_uv":%s,"updated":"%s"}\n' "$pv" "$uv" "$ts" > img/visitors.json
+          cat img/visitors.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "RockJesus"
+          git config user.email "jinyi2318@gmail.com"
+          git add img/visitors.json
+          git diff --cached --quiet || git commit -m "chore: sync busuanzi visitors $(date -u +%Y-%m-%dT%H:%M)"
+          git push

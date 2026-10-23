@@ -11,19 +11,11 @@
 </p>
 
 <p align="center">
-  <a href="https://rockjesus.cn"><img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/alienware-demo.webp" alt="Alienware.Hackintosh.by.RockJesus" style="max-width:100%;border-radius:8px"></a>
+  <a href="https://rockjesus.cn"><img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/alienware-demo.webp" alt="Alienware.Hackintosh.by.RockJesus" style="width:100%;height:auto;display:block;border-radius:8px"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/RockJesus"><img src="https://img.shields.io/badge/GitHub-RockJesus-181717?logo=github&logoColor=white" alt="RockJesus"></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&label=Stars&color=F4C430" alt="Stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&label=Followers&color=6e5494" alt="Followers"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/forks/rockjesus/rockjesus?logo=github&logoColor=white&label=Forks&color=2ea44f" alt="Forks"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/watchers/rockjesus/rockjesus?logo=github&logoColor=white&label=Watchers&color=1f6feb" alt="Watchers"></a>
-</p>
-
-<p align="center">
-<a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/repo-size/rockjesus/rockjesus?logo=github&logoColor=white&label=Repo%20Size&color=green" alt="Repo Size"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/languages/top/rockjesus/rockjesus?logo=github&logoColor=white&label=Top%20Lang&color=blueviolet" alt="Top Language"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/license/rockjesus/rockjesus?logo=github&logoColor=white&label=License&color=blue" alt="License"></a>
+<a href="https://github.com/RockJesus"><img src="https://img.shields.io/badge/GitHub-RockJesus-1f6feb?logo=github&logoColor=white" alt="RockJesus"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&label=Stars&color=F4C430" alt="Stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&label=Followers&color=6e5494" alt="Followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&label=Downloads&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn/"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
 </p>
 
 <p align="center">
@@ -45,7 +37,7 @@
 </p>
 
 <p align="center">
-<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&label=Downloads&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a>
 </p>
 
 ## ☕ 打赏支持

@@ -1,34 +1,52 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=900&height=70&lines=Welcome+%F0%9F%9B%B8+to+Alienware+%F0%9F%91%BD+Hackintosh+%F0%9F%8D%8E+%E5%A4%96%E6%98%9F%E4%BA%BA+%F0%9F%92%BB+%E9%BB%91%E8%8B%B9%E6%9E%9C+%F0%9F%96%A5+by+RockJesus.cn)](https://rockjesus.cn)
+<p align="center">
+  <a href="https://rockjesus.cn"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=900&height=70&lines=Welcome+%F0%9F%9B%B8+to+Alienware+%F0%9F%91%BD+Hackintosh+%F0%9F%8D%8E+%E5%A4%96%E6%98%9F%E4%BA%BA+%F0%9F%92%BB+%E9%BB%91%E8%8B%B9%E6%9E%9C+%F0%9F%96%A5+by+RockJesus.cn" alt="Typing SVG"></a>
+</p>
 
-[![qq](https://img.shields.io/badge/Blog-RockJesus-silver.svg?logo=Blogger)](https://rockjesus.cn)
+<p align="center">
+<a href="https://rockjesus.cn"><img src="https://img.shields.io/badge/Blog-RockJesus-silver?logo=Blogger&logoColor=white" alt="Blog"></a> <a href="https://alienware.com"><img src="https://img.shields.io/badge/Hardware-Alienware-silver?logo=Hackaday&logoColor=white" alt="Hardware"></a> <a href="https://developer.apple.com/macos"><img src="https://img.shields.io/badge/Platform-macOS%2026-red?logo=apple&logoColor=white" alt="macOS"></a> <a href="https://www.microsoft.com/windows/"><img src="https://img.shields.io/badge/Platform-Windows%2011-blue?logo=windows&logoColor=white" alt="Windows"></a>
+</p>
 
-https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4
+<p align="center">
+<a href="https://github.com/acidanthera/OpenCorePkg"><img src="https://img.shields.io/badge/Bootloader-OpenCore-silver?logo=OpenCollective&logoColor=white" alt="OpenCore"></a> <a href="https://github.com/CloverHackyColor/CloverBootloader"><img src="https://img.shields.io/badge/Bootloader-Clover-green?logo=4chan&logoColor=white" alt="Clover"></a>
+</p>
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif)](https://rockjesus.cn)[![RockJesus's GitHub stats](https://github-readme-stats.vercel.app/api?username=rockjesus&theme=radical&show_icons=true&bg_color=end,000000,cccccc&hide_border)](https://rockjesus.cn)[![trophy](https://github-profile-trophy.vercel.app/?username=rockjesus&theme=nord)](https://rockjesus.cn)
+<video src="https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4" controls style="display:block;margin:16px auto;max-width:100%;border-radius:8px;"></video>
 
-[![map](http://rf.revolvermaps.com/w/3/s/a/8/0/2/ffffff/010020/aa0000/04a1ptxjy5e.png)](https://rockjesus.cn/)[![map](http://rf.revolvermaps.com/h/m/a/0/ff0000/256/40/04a1ptxjy5e.png)](https://rockjesus.cn/)
+<p align="center">
+  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif" alt="17R4">
+  <img src="https://stats.justsong.cn/api/github?name=rockjesus&theme=radical&show_icons=true" alt="GitHub stats">
+</p>
 
-[![Hardware](https://img.shields.io/badge/Hardware-Alienware-silver.svg?logo=Hackaday)](https://alienware.com) [![Platform](https://img.shields.io/badge/platform-MacOS26-red.svg?logo=apple)](https://developer.apple.com/macos) [![Platform](https://img.shields.io/badge/platform-Windows11-blue.svg?logo=windows)](https://www.microsoft.com/en-us/windows/)
-[![b](https://img.shields.io/badge/Bootloader-Opencore-silver.svg?logo=OpenCollective)](https://github.com/acidanthera/OpenCorePkg)
-[![b](https://img.shields.io/badge/Bootloader-Clover-green.svg?logo=4chan)](https://github.com/CloverHackyColor/CloverBootloader)
-[![b](https://img.shields.io/badge/Credits-Acidanthera-purple.svg?logo=Academia)](https://github.com/acidanthera)
-[![b](https://img.shields.io/badge/Credits-TonymacX86-green.svg?logo=Tesla)](https://tonymacx86.com)
-[![b](https://img.shields.io/badge/Credits-PCbeta-red.svg?logo=PyCharm)](https://bbs.pcbeta.com)
-[![b](https://img.shields.io/badge/Credits-黑果小兵-yellow.svg?logo=Babel)](https://blog.daliansky.net/)
-[![qq](https://img.shields.io/badge/外星人黑苹果-个人博客Blog-silver.svg?logo=Blogger)](https://rockjesus.cn)
-[![qq](https://img.shields.io/badge/外星人黑苹果-QQ群-purple.svg?logo=TencentQQ)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/qq.png)
-[![qq](https://img.shields.io/badge/外星人黑苹果-微信公众号-silver.svg?logo=WeChat)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/gzh.jpg)
-[![qq](https://img.shields.io/badge/social-tiktok-blue.svg?logo=tiktok)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dou.png)
-[![qq](https://img.shields.io/badge/social-微信视频号-green.svg?logo=AirPlayVideo)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/sph.jpg)
-[![qq](https://img.shields.io/badge/social-电影公众号-red.svg?logo=Aparat)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dy.jpg)
- [![zfb](https://img.shields.io/badge/打赏-支付宝-blue.svg?logo=alipay)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zfb.png)
- [![wx](https://img.shields.io/badge/打赏-微信-green.svg?logo=wechat)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/wx.png)
- [![zsm](https://img.shields.io/badge/打赏-赞赏码-yellow.svg?logo=wechat)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zsm.png)
- [![qq](https://img.shields.io/badge/黑苹果-远程安装-purple.svg?logo=Atom)](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg)
- [![Gitter](https://img.shields.io/badge/Chatroom-Gitter-9cf.svg?logo=gitter)](https://gitter.im/Alienware-hackintosh/community)
-[![stars](https://img.shields.io/github/stars/rockjesus.svg?logo=ApacheSpark)](https://github.com/RockJesus)
-[![followers](https://img.shields.io/github/followers/RockJesus.svg?logo=SouthwestAirlines&color=purple)](https://github.com/RockJesus)
- [![download-badge](https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total.svg?logo=DocuSign "Download status")](https://github.com/RockJesus/Alienware-Hackintosh "Download status")
- [![visitors](https://visitor-badge.glitch.me/badge?page_id=rockjesus.visitor-badge&left_color=green&right_color=red)](https://rockjesus.cn)
+<p align="center">
+<a href="https://github.com/acidanthera"><img src="https://img.shields.io/badge/Credits-Acidanthera-purple?logo=Academia&logoColor=white" alt="Acidanthera"></a> <a href="https://tonymacx86.com"><img src="https://img.shields.io/badge/Credits-TonymacX86-green?logo=Tesla&logoColor=white" alt="TonymacX86"></a> <a href="https://bbs.pcbeta.com"><img src="https://img.shields.io/badge/Credits-PCbeta-red?logo=PyCharm&logoColor=white" alt="PCbeta"></a> <a href="https://blog.daliansky.net/"><img src="https://img.shields.io/badge/Credits-%E9%BB%91%E6%9E%9C%E5%B0%8F%E5%85%B5-yellow?logo=Babel&logoColor=white" alt="黑果小兵"></a>
+</p>
 
-[![qq](https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif)](https://rockjesus.cn)
+## 🌐 社交 / 交流
+
+<p align="center">
+<a href="https://rockjesus.cn"><img src="https://img.shields.io/badge/%E5%A4%96%E6%98%9F%E4%BA%BA%E9%BB%91%E8%8B%B9%E6%9E%9C-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%20Blog-silver?logo=Blogger&logoColor=white" alt="Blog"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/qq.png"><img src="https://img.shields.io/badge/%E5%A4%96%E6%98%9F%E4%BA%BA%E9%BB%91%E8%8B%B9%E6%9E%9C-QQ%20%E7%BE%A4-purple?logo=TencentQQ&logoColor=white" alt="QQ 群"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/gzh.jpg"><img src="https://img.shields.io/badge/%E5%A4%96%E6%98%9F%E4%BA%BA%E9%BB%91%E8%8B%B9%E6%9E%9C-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-silver?logo=WeChat&logoColor=white" alt="微信公众号"></a>
+</p>
+
+<p align="center">
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dou.png"><img src="https://img.shields.io/badge/Social-TikTok-blue?logo=tiktok&logoColor=white" alt="TikTok"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/sph.jpg"><img src="https://img.shields.io/badge/Social-%E5%BE%AE%E4%BF%A1%E8%A7%86%E9%A2%91%E5%8F%B7-green?logo=AirPlayVideo&logoColor=white" alt="微信视频号"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/dy.jpg"><img src="https://img.shields.io/badge/Social-%E7%94%B5%E5%BD%B1%E5%85%AC%E4%BC%97%E5%8F%B7-red?logo=Aparat&logoColor=white" alt="电影公众号"></a>
+</p>
+
+## ☕ 打赏支持
+
+<p align="center">
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zfb.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E6%94%AF%E4%BB%98%E5%AE%9D-blue?logo=alipay&logoColor=white" alt="支付宝"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/wx.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E5%BE%AE%E4%BF%A1-green?logo=wechat&logoColor=white" alt="微信"></a> <a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/zsm.png"><img src="https://img.shields.io/badge/%E6%89%93%E8%B5%8F-%E8%B5%9E%E8%B5%8F%E7%A0%81-yellow?logo=wechat&logoColor=white" alt="赞赏码"></a>
+</p>
+
+## 🛠 其他
+
+<p align="center">
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=ApacheSpark&logoColor=white&color=yellow" alt="stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=SouthwestAirlines&logoColor=white&color=purple" alt="followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
+</p>
+
+<p align="center">
+  <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/foot.gif" alt="footer">
+</p>

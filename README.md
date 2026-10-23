@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-<a href="https://rockjesus.cn"><img src="https://img.shields.io/badge/Blog-RockJesus-silver?logo=Blogger&logoColor=white" alt="Blog"></a> <a href="https://alienware.com"><img src="https://img.shields.io/badge/Hardware-Alienware-silver?logo=Hackaday&logoColor=white" alt="Hardware"></a> <a href="https://developer.apple.com/macos"><img src="https://img.shields.io/badge/Platform-macOS%2026-red?logo=apple&logoColor=white" alt="macOS"></a> <a href="https://www.microsoft.com/windows/"><img src="https://img.shields.io/badge/Platform-Windows%2011-blue?logo=windows&logoColor=white" alt="Windows"></a>
+<a href="https://rockjesus.cn"><img src="https://img.shields.io/badge/Blog-RockJesus-purple?logo=Blogger&logoColor=white" alt="Blog"></a> <a href="https://alienware.com"><img src="https://img.shields.io/badge/Hardware-Alienware-yellow?logo=Hackaday&logoColor=white" alt="Hardware"></a> <a href="https://developer.apple.com/macos"><img src="https://img.shields.io/badge/Platform-macOS%2026-red?logo=apple&logoColor=white" alt="macOS"></a> <a href="https://www.microsoft.com/windows/"><img src="https://img.shields.io/badge/Platform-Windows%2011-blue?logo=windows&logoColor=white" alt="Windows"></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/acidanthera/OpenCorePkg"><img src="https://img.shields.io/badge/Bootloader-OpenCore-silver?logo=OpenCollective&logoColor=white" alt="OpenCore"></a> <a href="https://github.com/CloverHackyColor/CloverBootloader"><img src="https://img.shields.io/badge/Bootloader-Clover-green?logo=4chan&logoColor=white" alt="Clover"></a>
+<a href="https://github.com/acidanthera/OpenCorePkg"><img src="https://img.shields.io/badge/Bootloader-OpenCore-red?logo=OpenCollective&logoColor=white" alt="OpenCore"></a> <a href="https://github.com/CloverHackyColor/CloverBootloader"><img src="https://img.shields.io/badge/Bootloader-Clover-green?logo=4chan&logoColor=white" alt="Clover"></a>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/RockJesus"><img src="https://img.shields.io/badge/GitHub-RockJesus-blue?logo=github&logoColor=white&labelColor=blue" alt="RockJesus"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&label=Stars&color=gold&labelColor=gold" alt="Stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&label=Followers&color=purple&labelColor=purple" alt="Followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&label=Downloads&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FRockJesus%2Frockjesus%2Fmain%2Fimg%2Fvisitors.json&query=site_pv&label=Visitors&color=red&labelColor=red" alt="visitors"></a>
+<a href="https://github.com/RockJesus"><img src="https://img.shields.io/badge/GitHub-RockJesus-silver?logo=github&logoColor=white&labelColor=blue" alt="RockJesus"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&label=Stars&color=silver&labelColor=blue" alt="Stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&label=Followers&color=purple&labelColor=purple" alt="Followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&label=Downloads&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FRockJesus%2Frockjesus%2Fmain%2Fimg%2Fvisitors.json&query=site_pv&label=Visitors&color=red&labelColor=red" alt="visitors"></a>
 </p>
 
 <p align="center">

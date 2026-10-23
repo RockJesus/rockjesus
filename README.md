@@ -10,17 +10,24 @@
 <a href="https://github.com/acidanthera/OpenCorePkg"><img src="https://img.shields.io/badge/Bootloader-OpenCore-silver?logo=OpenCollective&logoColor=white" alt="OpenCore"></a> <a href="https://github.com/CloverHackyColor/CloverBootloader"><img src="https://img.shields.io/badge/Bootloader-Clover-green?logo=4chan&logoColor=white" alt="Clover"></a>
 </p>
 
-<video autoplay loop muted playsinline src="https://user-images.githubusercontent.com/23656651/202349984-1fffa73f-b9e7-44b7-ab95-b54ff26e851d.mp4" style="display:block;margin:16px auto;max-width:100%;border-radius:8px;"></video>
+<p align="center">
+  <a href="https://rockjesus.cn"><img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/alienware-demo.webp" alt="Alienware.Hackintosh.by.RockJesus" style="max-width:100%;border-radius:8px"></a>
+</p>
 
 <p align="center">
-  <a href="https://github.com/RockJesus"><img src="https://github.com/rockjesus.png?size=120" width="30" height="30" style="border-radius:50%;vertical-align:middle" alt="RockJesus"></a>
-  <strong><a href="https://github.com/RockJesus">RockJesus</a></strong> ·
-  <a href="https://rockjesus.cn">rockjesus.cn</a>
+  <a href="https://github.com/RockJesus"><img src="https://img.shields.io/badge/GitHub-RockJesus-181717?logo=github&logoColor=white" alt="RockJesus"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&label=Stars&color=F4C430" alt="Stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&label=Followers&color=6e5494" alt="Followers"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/forks/rockjesus/rockjesus?logo=github&logoColor=white&label=Forks&color=2ea44f" alt="Forks"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/watchers/rockjesus/rockjesus?logo=github&logoColor=white&label=Watchers&color=1f6feb" alt="Watchers"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/repo-size/rockjesus/rockjesus?logo=github&logoColor=white&label=Repo%20Size&color=green" alt="Repo Size"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/languages/top/rockjesus/rockjesus?logo=github&logoColor=white&label=Top%20Lang&color=blueviolet" alt="Top Language"></a> <a href="https://github.com/rockjesus/rockjesus"><img src="https://img.shields.io/github/license/rockjesus/rockjesus?logo=github&logoColor=white&label=License&color=blue" alt="License"></a>
 </p>
 
 <p align="center">
   <img src="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/17r4.gif" style="height:210px;width:auto" alt="17R4">
-  <img src="https://stats.justsong.cn/api/github?name=rockjesus&theme=radical&show_icons=true" style="height:210px;width:auto" alt="GitHub stats">
 </p>
 
 <p align="center">
@@ -38,7 +45,7 @@
 </p>
 
 <p align="center">
-<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/stars/rockjesus?logo=github&logoColor=white&color=F4C430" alt="stars"></a> <a href="https://github.com/RockJesus"><img src="https://img.shields.io/github/followers/RockJesus?logo=github&logoColor=white&color=6e5494" alt="followers"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
+<a href="https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/az.jpg"><img src="https://img.shields.io/badge/%E9%BB%91%E8%8B%B9%E6%9E%9C-%E8%BF%9C%E7%A8%8B%E5%AE%89%E8%A3%85-purple?logo=Atom&logoColor=white" alt="远程安装"></a> <a href="https://gitter.im/Alienware-hackintosh/community"><img src="https://img.shields.io/badge/Chatroom-Gitter-9cf?logo=gitter&logoColor=white" alt="Gitter"></a> <a href="https://github.com/RockJesus/Alienware-Hackintosh"><img src="https://img.shields.io/github/downloads/RockJesus/Alienware-Opencore-Theme/total?logo=DocuSign&logoColor=white&label=Downloads&color=2ea44f" alt="downloads"></a> <a href="https://rockjesus.cn"><img src="https://visitor-badge.laobi.icu/badge?page_id=rockjesus.rockjesus&left_color=green&right_color=red" alt="visitors"></a>
 </p>
 
 ## ☕ 打赏支持

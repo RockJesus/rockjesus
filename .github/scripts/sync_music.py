@@ -82,7 +82,8 @@ def main():
                 if r:
                     tracks.append(r)
     else:
-        print('NO_COOKIE: QQ_COOKIE secret not configured, keeping seed playlist')
+        print('NO_COOKIE: QQ_COOKIE secret not configured, keeping existing playlist.json')
+        return
 
     out = {'updated': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
            'source': 'qq', 'playlist': name,

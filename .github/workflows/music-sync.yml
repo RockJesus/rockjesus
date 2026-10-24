@@ -1,0 +1,28 @@
+name: music-sync
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Sync QQ playlist
+        run: python .github/scripts/sync_music.py "${{ secrets.QQ_COOKIE }}"
+      - name: Commit and push
+        run: |
+          git config user.name "RockJesus"
+          git config user.email "jinyi2318@gmail.com"
+          git add music/playlist.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync QQ music playlist $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push origin main
+          else
+            echo "playlist unchanged, skip push"
+          fi

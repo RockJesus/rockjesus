@@ -1,0 +1,13 @@
+{
+  "updated": "2026-10-24T23:50:00Z",
+  "source": "seed",
+  "playlist": "RockJesus Station (QQ sync pending)",
+  "tracks": [
+    {
+      "name": "RockJesus Station",
+      "artist": "CC0 · Pixabay",
+      "url": "https://cdn.jsdelivr.net/gh/rockjesus/rockjesus@main/music/seed1.mp3",
+      "cover": "https://gcore.jsdelivr.net/gh/rockjesus/rockjesus/img/header_oc.webp"
+    }
+  ]
+}

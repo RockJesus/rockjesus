@@ -4,14 +4,16 @@
 依赖：QQ_COOKIE（仓库 Secret，用户自配）。
 歌单：'我喜欢' 3787157504（全量元数据匿名可取；音频流地址需 vkey）。
 
-v2 改造（相对 v1）：
-1. 全量收录：v1 用 MAX_TRACKS=300 截断，且 vkey 解析失败的曲目被直接丢弃，
-   结果 3064 首的歌单只剩 30 首。v2 把歌单里每一首都写进 JSON。
-2. 不再丢弃：拿不到直链的曲目标 playable=false，前端置灰展示并标注原因。
-3. 解析失败重试：带 cookie → 带 cookie → 匿名，共 3 次，间隔递增。
-   v1 一次失败即丢，是 90% 曲目消失的主因。
-4. 降并发 + 批间抖动，避免被 QQ 流控（Actions 出口 IP 更敏感）。
-5. 固定 guid：vkey 与 guid 绑定，逐曲随机 guid 会让地址更易失效。
+v3 改造（相对 v2）：
+1. 【合并旧直链】解析失败时回退用上一份 playlist.json 里的旧直链（按 歌名+歌手 匹配）。
+   实测 QQ 直链（purl）有效期远大于 2h（16h+ 的旧链仍 30/30 存活），而 QQ 侧对
+   数据中心 IP 的风控会让某些轮次的成功率骤降（匿名通道已 10006 全拒，cookie 通道
+   也可能被限流到 4%）。合并策略保证可播数单调不减，坏天气不再吞掉好天气的成果。
+2. 统计里加 keep（旧链续用数）。
+3. 其余沿用 v2：全量收录、失败不丢弃、cookie→cookie→匿名三段重试、降并发、固定 guid。
+
+匿名通道注意：2026-10-29 起 u.y.qq.com musicu.fcg 匿名请求一律返回 code=10006，
+c.y.qq.com mobile3 返回 104003 —— 无 cookie 时 vkey 实际上已不可解析。
 """
 import json, os, re, sys, time, uuid, random, urllib.request, concurrent.futures
 
@@ -63,6 +65,18 @@ def main():
     # 固定 guid：vkey 与 guid 绑定，逐曲随机会导致地址提前失效
     guid = str(int(uuid.uuid4().hex, 16))[:10]
 
+    # 【v3 合并基线】上一份歌单里的旧直链：key = (歌名, 歌手)，值 = 旧 purl 完整地址
+    prev_urls = {}
+    try:
+        with open('music/playlist.json', encoding='utf-8') as f:
+            old = json.load(f)
+        for t in old.get('tracks', []):
+            if t.get('url'):
+                prev_urls[(t.get('name', ''), t.get('artist', ''))] = t['url']
+        print('merge baseline: %d 条旧直链可回退' % len(prev_urls), flush=True)
+    except Exception as e:
+        print('merge baseline unavailable:', e, flush=True)
+
     def try_vkey(mid, cookie):
         body = {
             'comm': {'cv': 4747474, 'ct': 24, 'format': 'json', 'inCharset': 'utf-8',
@@ -76,7 +90,7 @@ def main():
         info = o.get('req_0', {}).get('data', {}).get('midurlinfo', [{}])[0]
         return (info.get('purl', '') or '').strip()
 
-    stat = {'cookie': 0, 'anon': 0, 'fail': 0}
+    stat = {'cookie': 0, 'anon': 0, 'keep': 0, 'fail': 0}
 
     def resolve(song):
         mid = song.get('songmid') or ''
@@ -109,8 +123,17 @@ def main():
             track['playable'] = True
             stat[mode] += 1
         else:
-            track['playable'] = False
-            stat['fail'] += 1
+            # 【v3】解析失败 → 回退旧直链（16h+ 旧链实测仍存活）；旧链也没有才标不可播
+            old_url = prev_urls.get((track['name'], track['artist']))
+            if old_url:
+                track['url'] = old_url
+                if song.get('albummid'):
+                    track.setdefault('cover', 'https://y.gtimg.cn/music/photo_new/T002R300x300M000%s.jpg' % song['albummid'])
+                track['playable'] = True
+                stat['keep'] += 1
+            else:
+                track['playable'] = False
+                stat['fail'] += 1
         return track
 
     tracks = []
@@ -127,9 +150,9 @@ def main():
             el = time.time() - t0
             rate = done / el if el > 0 else 0
             eta = (total - done) / rate if rate > 0 else 0
-            print('  %d/%d | 可播 %d (cookie %d / anon %d) | %.1f 首/秒 | 剩余 ~%ds'
-                  % (done, total, stat['cookie'] + stat['anon'], stat['cookie'], stat['anon'],
-                     rate, eta), flush=True)
+            print('  %d/%d | 可播 %d (cookie %d / anon %d / keep %d) | %.1f 首/秒 | 剩余 ~%ds'
+                  % (done, total, stat['cookie'] + stat['anon'] + stat['keep'],
+                     stat['cookie'], stat['anon'], stat['keep'], rate, eta), flush=True)
             time.sleep(0.6 + random.random() * 0.6)
 
     playable = sum(1 for t in tracks if t.get('url'))
@@ -139,9 +162,9 @@ def main():
     with open('music/playlist.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False)
 
-    print('DONE tracks=%d playable=%d (cookie %d / anon %d / fail %d) in %.0fs'
-          % (len(tracks), playable, stat['cookie'], stat['anon'], stat['fail'], time.time() - t0),
-          flush=True)
+    print('DONE tracks=%d playable=%d (cookie %d / anon %d / keep %d / fail %d) in %.0fs'
+          % (len(tracks), playable, stat['cookie'], stat['anon'], stat['keep'], stat['fail'],
+             time.time() - t0), flush=True)
     if len(tracks) < 2:
         print('WARN: too few tracks, keep previous file?')
         sys.exit(1)

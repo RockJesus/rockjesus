@@ -16,23 +16,41 @@ jobs:
 
       - name: Fetch busuanzi stats
         run: |
-          for i in 1 2 3; do
-            data=$(curl -s --max-time 20 -H "Referer: https://rockjesus.cn/" -H "User-Agent: Mozilla/5.0" "https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb") || true
+          # The upstream endpoint returns 502 fairly often and for long stretches.
+          # Retry inside curl (it covers 5xx) and then again at this level with
+          # a widening gap, so a short outage does not fail the whole run.
+          for i in 1 2 3 4; do
+            data=$(curl -s --max-time 25 \
+              --retry 2 --retry-delay 4 --retry-all-errors \
+              -H "Referer: https://rockjesus.cn/" \
+              -H "User-Agent: Mozilla/5.0" \
+              "https://busuanzi.ibruce.info/busuanzi?jsonpCallback=cb") || true
             if echo "$data" | grep -q '"site_pv"'; then break; fi
-            sleep 3
+            echo "attempt $i got no usable payload"
+            sleep $((i * 4))
           done
           pv=$(echo "$data" | grep -oE '"site_pv":[0-9]+' | grep -oE '[0-9]+' | head -1)
           uv=$(echo "$data" | grep -oE '"site_uv":[0-9]+' | grep -oE '[0-9]+' | head -1)
-          ts=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           echo "pv=$pv uv=$uv"
-          if [ -z "$pv" ]; then echo "FETCH_FAILED" && exit 1; fi
+          if [ -z "$pv" ]; then
+            # Upstream is down. Leave img/visitors.json untouched and keep the
+            # job green: a stale counter is better than a red run every 6 hours,
+            # and the warning is still visible in the run summary.
+            echo "::warning::busuanzi upstream unavailable, keeping the previous img/visitors.json"
+            exit 0
+          fi
+          ts=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           printf '{"site_pv":%s,"site_uv":%s,"updated":"%s"}\n' "$pv" "$uv" "$ts" > img/visitors.json
           cat img/visitors.json
 
       - name: Commit and push
         run: |
-          git config user.name "RockJesus"
-          git config user.email "jinyi2318@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add img/visitors.json
-          git diff --cached --quiet || git commit -m "chore: sync busuanzi visitors $(date -u +%Y-%m-%dT%H:%M)"
+          if git diff --cached --quiet; then
+            echo "no change in img/visitors.json, nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: sync busuanzi visitors $(date -u +%Y-%m-%dT%H:%M)"
           git push
